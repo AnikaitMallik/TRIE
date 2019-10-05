@@ -15,6 +15,7 @@ public class Trie {
 	int numwords;
 	int numnodes;
 
+	
 	public Trie() {
 
 		root = new Node();
