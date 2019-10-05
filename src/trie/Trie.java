@@ -8,6 +8,7 @@ public class Trie {
 	private class Node {
 		char data;
 		HashMap<Character, Node> map = new HashMap<>();
+		
 		boolean eow;
 	}
 
